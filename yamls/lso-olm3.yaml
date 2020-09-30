@@ -1,0 +1,11 @@
+apiVersion: operators.coreos.com/v1
+kind: OperatorSource
+metadata:
+  name: redhat-local-storage-src
+  namespace: openshift-marketplace
+spec:
+  type: appregistry
+  endpoint: https://quay.io/cnr
+  registryNamespace: hekumar
+  displayName: "Red Hat Storage operators"
+  publisher: "Red Hat Storage"
