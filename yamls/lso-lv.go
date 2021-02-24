@@ -6,7 +6,7 @@ import (
 	"github.com/ghodss/yaml"
 )
 
-// LsoLocalVolumeSet is used to create LoalVolumeSet for LSO (local storage operator)
+// LsoLocalVolumeSet is used to create LoalVolumeSet for LSO (Local Storage Operator)
 func LsoLocalVolumeSet() {
 	lvs := []byte(`{
 		"apiVersion":"local.storage.openshift.io/v1alpha1",
